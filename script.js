@@ -8,7 +8,7 @@ function createTable() {
 		let tr = document.createElement('tr');
 		for(let j = 0; j < cn; j++){
 			let td = document.createElement('td');
-			td.innerHTML += `Row-${i} Column-${j}`;
+			td.innerHTML = `Row-${i} Column-${j}`;
 			tr.appendChild(td);
 		}
 		table.appendChild(tr);
